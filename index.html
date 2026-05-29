@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alicia | Portafolio de Diseño Industrial</title>
+  <meta name="description" content="Portafolio profesional de Alicia, Diseñadora Industrial. Especializada en diseño de producto, mobiliario, modelado 3D y desarrollo conceptual.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- --- HEADER / NAVEGACIÓN --- -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo" id="nav-logo">ALICIA<span>.</span></a>
+      
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link active" id="link-home">Inicio</a></li>
+        <li><a href="#about" class="nav-link" id="link-about">Sobre Mí</a></li>
+        <li><a href="#portfolio" class="nav-link" id="link-portfolio">Proyectos</a></li>
+        <li><a href="#process" class="nav-link" id="link-process">El Proceso</a></li>
+        <li><a href="#contact" class="nav-link" id="link-contact">Contacto</a></li>
+      </ul>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú de navegación">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- --- HERO SECTION --- -->
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div class="hero-content reveal" id="hero-content-block">
+        <span class="hero-tagline">Diseñadora Industrial</span>
+        <h1 class="hero-title">Forma con <strong>propósito</strong>, materia con <strong>vida</strong>.</h1>
+        <p class="hero-desc">Creo objetos y experiencias tangibles que equilibran la ergonomía, la viabilidad de manufactura y una estética minimalista atemporal.</p>
+        <div class="hero-buttons">
+          <a href="#portfolio" class="btn btn-primary" id="btn-hero-portfolio">Ver Mi Trabajo</a>
+          <a href="#contact" class="btn btn-secondary" id="btn-hero-contact">Trabajemos Juntos</a>
+        </div>
+      </div>
+      
+      <div class="hero-visual reveal" id="hero-visual-block">
+        <div class="visual-box">
+          <img src="TFG/conjunto.jpg" alt="Render destacado del Trabajo Fin de Grado" class="visual-image" id="featured-hero-img">
+          <div class="visual-tag">
+            <p>Proyecto Destacado</p>
+            <h4>TFG | Proyecto Conjunto</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <span>Deslizar</span>
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- SOBRE MÍ SECTION --- -->
+  <section class="section-padding container reveal" id="about">
+    <span class="section-subtitle">Filosofía y Enfoque</span>
+    <h2 class="section-title">Sobre Mí</h2>
+    
+    <div class="about-grid">
+      <div class="about-text" id="about-text-content">
+        <p>Hola, soy <strong>Alicia</strong>, una apasionada diseñadora industrial enfocada en conceptualizar y dar forma a productos físicos que mejoren el día a día de las personas.</p>
+        <p>Mi enfoque se centra en el estudio minucioso de los <strong>materiales</strong> y los <strong>procesos de fabricación</strong>. Creo que un buen diseño no solo debe ser visualmente atractivo, sino también funcional, ergonómico y optimizado para su producción.</p>
+        <p>A lo largo de mi carrera académica y proyectos independientes, he experimentado con la combinación de artesanía tradicional y tecnologías modernas como el modelado CAD avanzado y la fabricación aditiva.</p>
+      </div>
+
+      <div class="skills-container" id="skills-container-block">
+        <div class="skills-category">
+          <h3>Diseño y Modelado</h3>
+          <div class="skills-tags">
+            <span class="tag">SolidWorks</span>
+            <span class="tag">Rhinoceros 3D</span>
+            <span class="tag">KeyShot (Rendering)</span>
+            <span class="tag">Diseño Paramétrico</span>
+          </div>
+        </div>
+
+        <div class="skills-category">
+          <h3>Prototipado e Industrial</h3>
+          <div class="skills-tags">
+            <span class="tag">Impresión 3D (FDM/SLA)</span>
+            <span class="tag">Corte Láser y CNC</span>
+            <span class="tag">Selección de Materiales</span>
+            <span class="tag">Planos Técnicos</span>
+          </div>
+        </div>
+
+        <div class="skills-category">
+          <h3>Herramientas Creativas</h3>
+          <div class="skills-tags">
+            <span class="tag">Bocetado a mano</span>
+            <span class="tag">Adobe Photoshop</span>
+            <span class="tag">Adobe Illustrator</span>
+            <span class="tag">Diseño Gráfico y Branding</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- PORTFOLIO SECTION --- -->
+  <section class="section-padding reveal" id="portfolio">
+    <div class="container">
+      <span class="section-subtitle">Mi Trabajo</span>
+      <h2 class="section-title">Proyectos Seleccionados</h2>
+
+      <!-- Filtros -->
+      <div class="portfolio-filter" id="portfolio-filters">
+        <button class="filter-btn active" data-filter="all" id="filter-all">Todos</button>
+        <button class="filter-btn" data-filter="tfg" id="filter-tfg">Trabajo Fin de Grado (TFG)</button>
+        <button class="filter-btn" data-filter="diseno" id="filter-diseno">Proyectos de Diseño</button>
+        <button class="filter-btn" data-filter="dibujos" id="filter-dibujos">Ilustración y Dibujo</button>
+      </div>
+
+      <!-- Grid de Proyectos -->
+      <div class="portfolio-grid" id="portfolio-grid">
+        
+        <!-- Proyecto 1: TFG -->
+        <div class="project-card" data-category="tfg" data-project-id="tfg-conjunto" id="card-tfg-conjunto">
+          <div class="project-img-wrapper">
+            <img src="TFG/conjunto.jpg" alt="TFG - Proyecto Conjunto" class="project-img">
+          </div>
+          <div class="project-info">
+            <span class="project-category">Trabajo Fin de Grado</span>
+            <h3 class="project-title">Proyecto Conjunto</h3>
+          </div>
+        </div>
+
+        <!-- Proyecto 2: Lámpara Modular -->
+        <div class="project-card" data-category="diseno" data-project-id="lampara-modular" id="card-lampara-modular">
+          <div class="project-img-wrapper">
+            <img src="Carrera/proyectos diseño/lampara_modular.png" alt="Lámpara Modular de Mesa" class="project-img">
+          </div>
+          <div class="project-info">
+            <span class="project-category">Proyecto de Diseño</span>
+            <h3 class="project-title">Lámpara Modular AURA</h3>
+          </div>
+        </div>
+
+        <!-- Proyecto 3: Silla Nórdica -->
+        <div class="project-card" data-category="diseno" data-project-id="silla-nordica" id="card-silla-nordica">
+          <div class="project-img-wrapper">
+            <img src="Carrera/proyectos diseño/silla_nordica.png" alt="Silla de estilo nórdico" class="project-img">
+          </div>
+          <div class="project-info">
+            <span class="project-category">Proyecto de Diseño</span>
+            <h3 class="project-title">Silla Ergónoma KÄLLA</h3>
+          </div>
+        </div>
+
+        <!-- Proyecto 4: Boceto Cafetera -->
+        <div class="project-card" data-category="dibujos" data-project-id="boceto-lampara" id="card-boceto-lampara">
+          <div class="project-img-wrapper">
+            <img src="Dibujos/Dibujos sobre diseño industrial/boceto_lampara.png" alt="Boceto Técnico de Producto" class="project-img">
+          </div>
+          <div class="project-info">
+            <span class="project-category">Bocetos e Ideas</span>
+            <h3 class="project-title">Exploraciones Conceptuales</h3>
+          </div>
+        </div>
+
+        <!-- Proyecto 5: Dear Cucú -->
+        <div class="project-card" data-category="dibujos" data-project-id="dear-cucu" id="card-dear-cucu">
+          <div class="project-img-wrapper">
+            <img src="Dibujos/Diseño personajes/personaje_cucu.png" alt="Diseño de personaje Dear Cucú" class="project-img">
+          </div>
+          <div class="project-info">
+            <span class="project-category">Ilustración / Personajes</span>
+            <h3 class="project-title">Proyecto Dear Cucú</h3>
+          </div>
+        </div>
+
+        <!-- Proyecto 6: Paisaje -->
+        <div class="project-card" data-category="dibujos" data-project-id="paisaje" id="card-paisaje">
+          <div class="project-img-wrapper">
+            <img src="Dibujos/Paisajes/paisaje_boceto.png" alt="Boceto artístico de paisaje" class="project-img">
+          </div>
+          <div class="project-info">
+            <span class="project-category">Dibujo Libre</span>
+            <h3 class="project-title">Bocetos de Paisajes</h3>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- --- EL PROCESO DE DISEÑO SECTION --- -->
+  <section class="section-padding container reveal" id="process">
+    <span class="section-subtitle">Metodología</span>
+    <h2 class="section-title">El Proceso de Diseño</h2>
+    
+    <div class="process-timeline" id="process-timeline-block">
+      
+      <!-- Paso 1 -->
+      <div class="process-step" id="step-investigacion">
+        <span class="step-num">01</span>
+        <h3 class="step-title">Investigación</h3>
+        <p class="step-desc">Identificación de necesidades, análisis de la competencia, estudios de usuarios y determinación de requerimientos técnicos.</p>
+      </div>
+
+      <!-- Paso 2 -->
+      <div class="process-step" id="step-bocetado">
+        <span class="step-num">02</span>
+        <h3 class="step-title">Bocetado</h3>
+        <p class="step-desc">Exploración rápida en papel y digital. Desarrollo de alternativas de forma, proporción y ergonomía básica.</p>
+      </div>
+
+      <!-- Paso 3 -->
+      <div class="process-step" id="step-modelado">
+        <span class="step-num">03</span>
+        <h3 class="step-title">Modelado 3D</h3>
+        <p class="step-desc">Construcción tridimensional precisa en CAD (SolidWorks/Rhino) definiendo tolerancias mecánicas y encajes.</p>
+      </div>
+
+      <!-- Paso 4 -->
+      <div class="process-step" id="step-visualizacion">
+        <span class="step-num">04</span>
+        <h3 class="step-title">Visualización</h3>
+        <p class="step-desc">Configuración de materiales reales, acabados superficiales e iluminación en KeyShot para renders realistas.</p>
+      </div>
+
+      <!-- Paso 5 -->
+      <div class="process-step" id="step-prototipado">
+        <span class="step-num">05</span>
+        <h3 class="step-title">Prototipado</h3>
+        <p class="step-desc">Fabricación de prototipos funcionales mediante impresión 3D u otros materiales para validar forma, uso y ensamble.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- --- CONTACTO SECTION --- -->
+  <section class="section-padding container reveal" id="contact">
+    <span class="section-subtitle">¿Tienes un proyecto en mente?</span>
+    <h2 class="section-title">Hablemos</h2>
+
+    <div class="contact-grid">
+      <div class="contact-info" id="contact-info-block">
+        <div class="contact-item">
+          <h4>Contacto Directo</h4>
+          <p><a href="mailto:hola@aliciadesign.com" id="contact-email">hola@aliciadesign.com</a></p>
+          <p><a href="tel:+34600000000" id="contact-phone">+34 600 000 000</a></p>
+        </div>
+
+        <div class="contact-item">
+          <h4>Localización</h4>
+          <p>Madrid, España (Disponible para proyectos en remoto)</p>
+        </div>
+
+        <div class="contact-item">
+          <h4>Mis Redes</h4>
+          <div class="social-links">
+            <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-btn" id="social-linkedin" aria-label="LinkedIn">LN</a>
+            <a href="https://behance.net" target="_blank" rel="noopener" class="social-btn" id="social-behance" aria-label="Behance">BE</a>
+            <a href="https://instagram.com" target="_blank" rel="noopener" class="social-btn" id="social-instagram" aria-label="Instagram">IG</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Formulario -->
+      <form class="contact-form" id="contact-form" action="#" method="POST">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="form-name" class="form-label">Nombre</label>
+            <input type="text" id="form-name" class="form-input" placeholder="Tu nombre" required>
+          </div>
+          <div class="form-group">
+            <label for="form-email" class="form-label">Email</label>
+            <input type="email" id="form-email" class="form-input" placeholder="tu@email.com" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="form-subject" class="form-label">Asunto</label>
+          <input type="text" id="form-subject" class="form-input" placeholder="¿En qué puedo ayudarte?" required>
+        </div>
+
+        <div class="form-group">
+          <label for="form-message" class="form-label">Mensaje</label>
+          <textarea id="form-message" class="form-textarea" placeholder="Cuéntame más detalles sobre tu proyecto..." required></textarea>
+        </div>
+
+        <div class="form-message" id="form-status-message"></div>
+
+        <button type="submit" class="btn btn-primary" id="btn-submit-form" style="align-self: flex-start;">Enviar Mensaje</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- --- FOOTER --- -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Alicia. Todos los derechos reservados. Diseñado y programado a medida.</p>
+    </div>
+  </footer>
+
+  <!-- --- LIGHTBOX MODAL DETALLES DE PROYECTO --- -->
+  <div class="modal" id="project-modal" aria-hidden="true" role="dialog">
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close-btn" aria-label="Cerrar modal">&times;</button>
+      
+      <div class="modal-grid">
+        <div class="modal-gallery" id="modal-gallery-container">
+          <img src="" alt="Imagen de proyecto" id="modal-main-img">
+        </div>
+        
+        <div class="modal-details">
+          <span class="modal-category" id="modal-project-category">Categoría</span>
+          <h3 class="modal-title" id="modal-project-title">Título del Proyecto</h3>
+          
+          <div class="modal-meta-grid">
+            <div class="meta-item">
+              <h5>Materiales</h5>
+              <p id="modal-meta-materials">Detalle de materiales</p>
+            </div>
+            <div class="meta-item">
+              <h5>Software / Técnica</h5>
+              <p id="modal-meta-software">Herramientas utilizadas</p>
+            </div>
+            <div class="meta-item">
+              <h5>Rol</h5>
+              <p id="modal-meta-role">Tu contribución</p>
+            </div>
+            <div class="meta-item">
+              <h5>Año</h5>
+              <p id="modal-meta-year">2026</p>
+            </div>
+          </div>
+
+          <div class="modal-description" id="modal-project-desc">
+            <!-- Rellenado dinámicamente por JS -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
