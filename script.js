@@ -1,4 +1,4 @@
-/**
+﻿/**
  * ==========================================================================
  * PORTFOLIO JAVASCRIPT - FOLDER SYSTEM & HOVER SLIDESHOW (LIGHT PASTEL)
  * ==========================================================================
@@ -12,10 +12,10 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Trabajo Fin de Grado (TFG)',
       category: 'Diseño Industrial',
       desc: 'Proyecto de investigación y desarrollo de un sistema de movilidad urbana modular sostenible, validado mediante prototipos físicos y simulación CAD.',
-      cover: 'TFG/conjunto.jpg',
+      cover: 'tfg/conjunto.jpg',
       images: [
         {
-          src: 'TFG/conjunto.jpg',
+          src: 'tfg/conjunto.jpg',
           title: 'Sistema de Envases de Cosmética - Render de Conjunto',
           materials: 'Acero inoxidable, polímeros reciclados',
           software: '3ds Max, V-Ray',
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Vista de conjunto de los envases diseñados para cosméticos desde el punto de vista del ecodiseño.'
         },
         {
-          src: 'TFG/todoslosproto.jpg',
+          src: 'tfg/todoslosproto.jpg',
           title: 'Evolución de Modelos de Estudio y Pruebas',
           materials: 'Diversos materiales de prueba',
           software: 'Prototipado Analógico',
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Modelos creados durante el proceso de pruebas para validar cierres y volumen.'
         },
         {
-          src: 'TFG/protopro3.jpg',
+          src: 'tfg/protopro3.jpg',
           title: 'Prototipo de Resina de los Envases',
           materials: 'Impresión 3D de Resina',
           software: 'Fabricación Aditiva',
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Modelos físicos impresos en resina de los envases finales.'
         },
         {
-          src: 'TFG/protopro1.jpg',
+          src: 'tfg/protopro1.jpg',
           title: 'Prototipo Final Detalle de Cierre',
           materials: 'Resina y laca protectora',
           software: 'Impresión 3D',
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Detalle físico del ensamble y el sistema de apertura.'
         },
         {
-          src: 'TFG/protopro2.jpg',
+          src: 'tfg/protopro2.jpg',
           title: 'Piezas Cortadas por Láser para Embalaje',
           materials: 'Cartón microondulado',
           software: 'Cortadora Láser',
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Montaje final de las cajas de cartón cortadas mediante láser.'
         },
         {
-          src: 'TFG/protocutre.jpg',
+          src: 'tfg/protocutre.jpg',
           title: 'Maqueta de Volumen Inicial',
           materials: 'Cartón y papel',
           software: 'Prototipado Rápido',
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Primer prototipo rápido en cartón para el estudio del volumen en mano.'
         },
         {
-          src: 'TFG/indice.jpg',
+          src: 'tfg/indice.jpg',
           title: 'Memoria Visual del Proyecto',
           materials: 'Papel mate',
           software: 'Adobe InDesign',
@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Páginas explicativas de la memoria visual del TFG.'
         },
         {
-          src: 'TFG/kikoe1.jpg',
+          src: 'tfg/kikoe1.jpg',
           title: 'Render de Envase 1 - Simulación Kiko Milano',
           materials: 'Acero inoxidable cepillado',
           software: '3ds Max',
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Render del envase 1 simulando su uso comercial para la marca Kiko Milano.'
         },
         {
-          src: 'TFG/kikoe1caja.jpg',
+          src: 'tfg/kikoe1caja.jpg',
           title: 'Render de Envase 1 con Caja - Kiko Milano',
           materials: 'Cartón impreso',
           software: '3ds Max, Illustrator',
@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Render del envase 1 junto a su caja específica con simulación de marca.'
         },
         {
-          src: 'TFG/kikoe2.jpg',
+          src: 'tfg/kikoe2.jpg',
           title: 'Render de Envase 2 - Simulación Kiko Milano',
           materials: 'Acero inoxidable',
           software: '3ds Max',
@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Render del envase 2 con diseño gráfico simulado de Kiko Milano.'
         },
         {
-          src: 'TFG/kikoe2caja.jpg',
+          src: 'tfg/kikoe2caja.jpg',
           title: 'Render de Envase 2 con Caja - Kiko Milano',
           materials: 'Cartón impreso',
           software: '3ds Max, Illustrator',
@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Render del envase 2 junto con su packaging y recambio.'
         },
         {
-          src: 'TFG/partese1.png',
+          src: 'tfg/partese1.png',
           title: 'Planos Técnicos del Envase 1',
           materials: 'Diseño Técnico',
           software: 'SolidWorks',
@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Explosión de las partes que componen el primer envase cosmético.'
         },
         {
-          src: 'TFG/partese2.png',
+          src: 'tfg/partese2.png',
           title: 'Planos Técnicos del Envase 2',
           materials: 'Diseño Técnico',
           software: 'SolidWorks',
@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Explosión de las partes que componen el segundo envase cosmético.'
         },
         {
-          src: 'TFG/e2 kiko 1.jpg',
+          src: 'tfg/e2-kiko-1.jpg',
           title: 'Simulación de Acabados Envase 2',
           materials: 'Acero inoxidable pulido',
           software: '3ds Max',
@@ -146,10 +146,10 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Proyectos del grado',
       category: 'Diseño Industrial',
       desc: '',
-      cover: 'Carrera/proyectos diseño/hab1.jpg',
+      cover: 'carrera/proyectos-diseno/hab1.jpg',
       images: [
         {
-          src: 'Carrera/proyectos diseño/hab1.jpg',
+          src: 'carrera/proyectos-diseno/hab1.jpg',
           title: 'EcoRack - Separador de Ambientes 1',
           materials: 'Materiales sostenibles',
           software: '3ds Max',
@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Render del mueble EcoRack funcionando como separador en dormitorio.'
         },
         {
-          src: 'Carrera/proyectos diseño/hab2.jpg',
+          src: 'carrera/proyectos-diseno/hab2.jpg',
           title: 'EcoRack - Separador de Ambientes 2',
           materials: 'Materiales sostenibles',
           software: '3ds Max',
@@ -167,7 +167,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Render de EcoRack en una distribución de salón.'
         },
         {
-          src: 'Carrera/proyectos diseño/hab3.jpg',
+          src: 'carrera/proyectos-diseno/hab3.jpg',
           title: 'EcoRack - Separador de Ambientes 3',
           materials: 'Materiales sostenibles',
           software: '3ds Max',
@@ -176,7 +176,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Render de EcoRack adaptado a una esquina de lectura.'
         },
         {
-          src: 'Carrera/proyectos diseño/zapatero.jpg',
+          src: 'carrera/proyectos-diseno/zapatero.jpg',
           title: 'EcoRack - Detalle Zapatero',
           materials: 'Materiales sostenibles',
           software: '3ds Max',
@@ -185,7 +185,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Vista de detalle de las baldas inferiores utilizadas como zapatero.'
         },
         {
-          src: 'Carrera/proyectos diseño/est1.jpg',
+          src: 'carrera/proyectos-diseno/est1.jpg',
           title: 'EcoRack - Configuración Estantería 1',
           materials: 'Materiales sostenibles',
           software: '3ds Max',
@@ -194,7 +194,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Módulo de estantería vertical con baldas personalizables.'
         },
         {
-          src: 'Carrera/proyectos diseño/est2.jpg',
+          src: 'carrera/proyectos-diseno/est2.jpg',
           title: 'EcoRack - Configuración Estantería 2',
           materials: 'Materiales sostenibles',
           software: '3ds Max',
@@ -203,7 +203,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Otra variante de configuración de las láminas para estantería.'
         },
         {
-          src: 'Carrera/proyectos diseño/echo1.png',
+          src: 'carrera/proyectos-diseno/echo1.png',
           title: 'EchoStation - Altavoz y Estación de Carga',
           materials: 'ABS, componentes electrónicos',
           software: 'SolidWorks, KeyShot',
@@ -212,7 +212,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Render del altavoz y base de carga EchoStation.'
         },
         {
-          src: 'Carrera/proyectos diseño/echo2.png',
+          src: 'carrera/proyectos-diseno/echo2.png',
           title: 'EchoStation - Auriculares Plegables',
           materials: 'Polímeros y almohadillas textiles',
           software: 'SolidWorks, KeyShot',
@@ -221,7 +221,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Render de los auriculares Headphones plegables acoplados en su base.'
         },
         {
-          src: 'Carrera/proyectos diseño/mar1.jpg',
+          src: 'carrera/proyectos-diseno/mar1.jpg',
           title: 'Marquesina Bus Málaga - Render General',
           materials: 'Vidrio, acero, paneles electrónicos',
           software: '3ds Max, KeyShot',
@@ -230,7 +230,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Render de conjunto de la marquesina inteligente con aparcamiento para patinetes.'
         },
         {
-          src: 'Carrera/proyectos diseño/mar2.jpg',
+          src: 'carrera/proyectos-diseno/mar2.jpg',
           title: 'Marquesina Bus Málaga - Detalle Aparcamiento',
           materials: 'Acero templado',
           software: '3ds Max',
@@ -239,7 +239,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Detalle de los racks de seguridad integrados para vehículos de movilidad personal.'
         },
         {
-          src: 'Carrera/proyectos diseño/mar3.jpg',
+          src: 'carrera/proyectos-diseno/mar3.jpg',
           title: 'Marquesina Bus Málaga - Detalle Asiento',
           materials: 'Madera tratada y acero',
           software: '3ds Max',
@@ -248,7 +248,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Estudio ergonómico del asiento corrido de madera para la espera de pasajeros.'
         },
         {
-          src: 'Carrera/proyectos diseño/IMAGEN PROTOTIPO.png',
+          src: 'carrera/proyectos-diseno/IMAGEN PROTOTIPO.png',
           title: 'Dreamy - Prototipo Funcional Real',
           materials: 'Filamento PLA, electrónica básica, sensor de sonido',
           software: 'Impresión 3D FDM',
@@ -262,10 +262,10 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Proyectos ProCarton',
       category: 'Diseño Industrial',
       desc: 'Desarrollos de embalajes y estructuras sostenibles empleando cartón corrugado, presentados a los premios ProCarton.',
-      cover: 'ProCarton/pal4.png',
+      cover: 'procarton/pal4.png',
       images: [
         {
-          src: 'ProCarton/cartel procarton.png',
+          src: 'procarton/cartel-procarton.png',
           title: 'Cartel de Comunicación Sostenible',
           materials: 'Cartón reciclable, tintas flexográficas digitales',
           software: 'Adobe Illustrator, Photoshop',
@@ -274,7 +274,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Diseño gráfico conceptual destinado a promover la sustitución de plásticos de un solo uso por embalajes biodegradables.'
         },
         {
-          src: 'ProCarton/pal1.png',
+          src: 'procarton/pal1.png',
           title: 'Diseño de Palet de Cartón - Isometría',
           materials: 'Cartón corrugado de doble onda',
           software: 'SolidWorks',
@@ -283,7 +283,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Propuesta estructural que sustituye palets de madera por palets ligeros de cartón capaces de soportar 800 kg de carga estática.'
         },
         {
-          src: 'ProCarton/pal2.png',
+          src: 'procarton/pal2.png',
           title: 'Detalle de Columnas de Soporte',
           materials: 'Cartón laminado en espiral',
           software: 'SolidWorks, KeyShot',
@@ -292,7 +292,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Estudio de resistencia al aplastamiento vertical de las columnas modulares de cartón.'
         },
         {
-          src: 'ProCarton/pal3.png',
+          src: 'procarton/pal3.png',
           title: 'Diseño Desplegado de Plancha',
           materials: 'Cartón corrugado de alta densidad',
           software: 'Adobe Illustrator (Dielines)',
@@ -301,7 +301,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Plano del troquel plano y líneas de hendido optimizadas para el montaje rápido del palet sin adhesivos.'
         },
         {
-          src: 'ProCarton/pal4.png',
+          src: 'procarton/pal4.png',
           title: 'Distribución de Cargas Estáticas',
           materials: 'Visualización estructural',
           software: 'SolidWorks Simulation',
@@ -310,7 +310,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Simulación cromática del reparto de esfuerzos sobre la base del palet bajo carga estándar de transporte.'
         },
         {
-          src: 'ProCarton/charla.jpg',
+          src: 'procarton/charla.jpg',
           title: 'Presentación Técnica del Proyecto',
           materials: 'Ponencia y diapositivas de diseño',
           software: 'Adobe InDesign',
@@ -319,7 +319,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Fotografía durante la defensa pública del proyecto de embalajes sostenibles ante el jurado.'
         },
         {
-          src: 'ProCarton/premio.jpg',
+          src: 'procarton/premio.jpg',
           title: 'Ceremonia de Entrega de Premios',
           materials: 'Galardón del certamen',
           software: 'Relaciones Públicas',
@@ -333,10 +333,10 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Diseño de Personajes & Dear Cucú',
       category: 'Producción Artística',
       desc: 'Colección de ilustraciones y bocetos para la creación de personajes digitales, editoriales y el diseño del autómata de madera Dear Cucú.',
-      cover: 'Dibujos/Diseño personajes/personaje_cucu.png',
+      cover: 'dibujos/diseno-personajes/personaje-cucu.png',
       images: [
         {
-          src: 'Dibujos/Diseño personajes/personaje_cucu.png',
+          src: 'dibujos/diseno-personajes/personaje-cucu.png',
           title: 'Robot Dear Cucú - Ficha de Personaje',
           materials: 'Ilustración digital',
           software: 'Procreate, Photoshop',
@@ -345,7 +345,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Diseño de proporciones y paleta cromática para el personaje de juguete autómata.'
         },
         {
-          src: 'Dibujos/Dear Cucú/dear cucu .png',
+          src: 'dibujos/diseno-personajes/dear-cucu.png',
           title: 'Exploración de Color - Robot Cucú',
           materials: 'Pintura digital texturizada',
           software: 'Procreate',
@@ -354,7 +354,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Estudio de acabados sobre madera veteada en tonos pastel.'
         },
         {
-          src: 'Dibujos/Dear Cucú/casa cucu .png',
+          src: 'dibujos/diseno-personajes/casa-cucu.png',
           title: 'Entorno Conceptual - Casa de Cucú',
           materials: 'Línea de tinta digital',
           software: 'Adobe Illustrator',
@@ -363,7 +363,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Boceto de la caseta de cuco estilizada para alojar al autómata interactivo.'
         },
         {
-          src: 'Dibujos/Dear Cucú/Casa_Cucu_Mejorada.jpg',
+          src: 'dibujos/diseno-personajes/casa-cucu-mejorada.jpg',
           title: 'Render Refinado - Casita de Madera',
           materials: 'Gouache digital',
           software: 'Procreate',
@@ -372,7 +372,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Estudio de luces y sombras pintado digitalmente sobre la estructura de la caseta.'
         },
         {
-          src: 'Dibujos/Diseño personajes/Lemonyolk_Dtiys.jpg',
+          src: 'dibujos/diseno-personajes/Lemonyolk_Dtiys.jpg',
           title: 'Ilustración Lemonyolk Dtiys',
           materials: 'Tinta y color digital texturizado',
           software: 'Procreate',
@@ -381,7 +381,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Trabajo artístico centrado en el estudio cromático del color amarillo pastel.'
         },
         {
-          src: 'Dibujos/Diseño personajes/Mis_Hijos_2.0.jpg',
+          src: 'dibujos/diseno-personajes/Mis_Hijos_2.0.jpg',
           title: 'Ilustración Mis Hijos 2.0',
           materials: 'Pintura digital texturizada',
           software: 'Procreate',
@@ -390,7 +390,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Ilustración estilizada y cómica que explora la personalidad de personajes a través del vestuario.'
         },
         {
-          src: 'Dibujos/Diseño personajes/ID_triple_A (1).jpg',
+          src: 'dibujos/diseno-personajes/ID_triple_A (1).jpg',
           title: 'Personajes ID Triple A',
           materials: 'Dibujo digital en acuarela',
           software: 'Adobe Photoshop',
@@ -399,7 +399,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Diseño de una terna de personajes para aplicaciones interactivas de aprendizaje.'
         },
         {
-          src: 'Dibujos/Diseño personajes/Primer_Intento_Rendering.jpg',
+          src: 'dibujos/diseno-personajes/Primer_Intento_Rendering.jpg',
           title: 'Estudio de Volumen Digital',
           materials: 'Modelado de luces digital',
           software: 'Procreate',
@@ -408,7 +408,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Práctica de volumen pintando caras con luz dirigida.'
         },
         {
-          src: 'Dibujos/Diseño personajes/boda tito dani.jpg',
+          src: 'dibujos/diseno-personajes/boda tito dani.jpg',
           title: 'Ilustración Conmemorativa Boda',
           materials: 'Ilustración digital flat design',
           software: 'Adobe Illustrator',
@@ -417,7 +417,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Retrato vectorial minimalista diseñado para invitaciones de boda.'
         },
         {
-          src: 'Dibujos/Diseño personajes/las aventuras de claudia.jpeg',
+          src: 'dibujos/diseno-personajes/las aventuras de claudia.jpeg',
           title: 'Portada - Las Aventuras de Claudia',
           materials: 'Diseño editorial',
           software: 'Procreate, InDesign',
@@ -426,7 +426,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Diseño de portada para cuento infantil utilizando una paleta pastel suave.'
         },
         {
-          src: 'Dibujos/Diseño personajes/unnamed.jpg',
+          src: 'dibujos/diseno-personajes/unnamed.jpg',
           title: 'Bocetos Rápidos de Caras',
           materials: 'Tinta analógica sobre papel kraft',
           software: 'Técnica Tradicional',
@@ -440,10 +440,10 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Cerámica Artesanal',
       category: 'Producción Artística',
       desc: 'Exploración del volumen manual, el torno alfarero tradicional y la química de esmaltes mate formulados en el taller.',
-      cover: 'cerámica/ceramica_piezas.png',
+      cover: 'ceramica/ceramica_piezas.png',
       images: [
         {
-          src: 'cerámica/ceramica_piezas.png',
+          src: 'ceramica/ceramica_piezas.png',
           title: 'Colección de Jarrones Orgánicos',
           materials: 'Arcilla de gres con chamota, esmaltes mate formulados a mano',
           software: 'Torno de alfarero y quema a 1250°C',
@@ -457,10 +457,10 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Proyectos creativos durante el grado',
       category: 'LOGOS, CARTELES Y MÁS',
       desc: '',
-      cover: 'Carrera/logos, carteles/juegoreal.jpg',
+      cover: 'carrera/logos-carteles/juegoreal.jpg',
       images: [
         {
-          src: 'Carrera/logos, carteles/juegoreal.jpg',
+          src: 'carrera/logos-carteles/juegoreal.jpg',
           title: 'Re-Earth - Prototipo del Juego de Mesa',
           materials: 'Cartón, madera, impresión 3D',
           software: 'Técnicas diversas de fabricación',
@@ -469,7 +469,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Fotografía del prototipo funcional del juego de mesa Re-Earth.'
         },
         {
-          src: 'Carrera/logos, carteles/logo.png',
+          src: 'carrera/logos-carteles/logo.png',
           title: 'Logo del Proyecto Re-Earth',
           materials: 'Diseño gráfico digital',
           software: 'Inkscape, Illustrator',
@@ -478,7 +478,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Logotipo desarrollado para el proyecto Erasmus+ Re-Earth.'
         },
         {
-          src: 'Carrera/logos, carteles/ae1.png',
+          src: 'carrera/logos-carteles/ae1.png',
           title: 'Producción Creativa AE1',
           materials: 'Gráfico vectorial',
           software: 'Inkscape',
@@ -487,7 +487,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Logotipo de marca desarrollado durante el grado.'
         },
         {
-          src: 'Carrera/logos, carteles/ae2.png',
+          src: 'carrera/logos-carteles/ae2.png',
           title: 'Producción Creativa AE2',
           materials: 'Gráfico vectorial',
           software: 'Inkscape',
@@ -496,7 +496,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Estudio y diseño de isotipo para marca comercial.'
         },
         {
-          src: 'Carrera/logos, carteles/ae3.png',
+          src: 'carrera/logos-carteles/ae3.png',
           title: 'Producción Creativa AE3',
           materials: 'Ilustración digital',
           software: 'Procreate, Photoshop',
@@ -505,7 +505,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Póster publicitario con diseño tipográfico y gráfico.'
         },
         {
-          src: 'Carrera/logos, carteles/cartel1.jpg',
+          src: 'carrera/logos-carteles/cartel1.jpg',
           title: 'Cartel de Diseño Industrial',
           materials: 'Maquetación digital',
           software: 'Photoshop, InDesign',
@@ -514,7 +514,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Diseño de cartel publicitario promocional.'
         },
         {
-          src: 'Carrera/logos, carteles/planta.png',
+          src: 'carrera/logos-carteles/planta.png',
           title: 'Ilustración Botánica - Planta',
           materials: 'Lápiz y gouache digital',
           software: 'Procreate',
@@ -536,7 +536,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // --- MENÚ MÓVIL (TOGGLE) ---
+  // --- MEN�s M�"VIL (TOGGLE) ---
   const menuToggle = document.getElementById('menu-toggle');
   const navMenu = document.getElementById('nav-menu');
   const navLinks = document.querySelectorAll('.nav-link');
@@ -558,7 +558,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-  // --- PREVISUALIZACIÓN AUTOMÁTICA AL PASAR EL CURSOR (HOVER SLIDESHOW) ---
+  // --- PREVISUALIZACI�"N AUTOMÁTICA AL PASAR EL CURSOR (HOVER SLIDESHOW) ---
   const folderCards = document.querySelectorAll('.folder-card');
   let slideshowInterval = null;
 
@@ -641,7 +641,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <p>También diseñé las <strong>cajas específicas para cada envase</strong> y sus respectivos recambios. Aquí pueden verse imágenes y vídeos sobre mi proceso y los resultados obtenidos.</p>
             </div>
             <div class="tfg-intro-img-box">
-              <img src="TFG/conjunto.jpg" alt="Imagen de conjunto del TFG" class="tfg-intro-img">
+              <img src="tfg/conjunto.jpg" alt="Imagen de conjunto del TFG" class="tfg-intro-img">
             </div>
           </div>
           
@@ -651,16 +651,16 @@ document.addEventListener('DOMContentLoaded', () => {
             
             <div class="tfg-video-grid">
               <div class="tfg-video-card">
-                <video src="TFG/animacion1e1.mp4" controls loop muted></video>
+                <video src="tfg/animacion1e1.mp4" controls loop muted></video>
               </div>
               <div class="tfg-video-card">
-                <video src="TFG/animacion1e2.mp4" controls loop muted></video>
+                <video src="tfg/animacion1e2.mp4" controls loop muted></video>
               </div>
               <div class="tfg-video-card">
-                <video src="TFG/animacion explicacion e1.mp4" controls loop muted></video>
+                <video src="tfg/animacion-explicacion-e1.mp4" controls loop muted></video>
               </div>
               <div class="tfg-video-card">
-                <video src="TFG/animacion explicacion e2.mp4" controls loop muted></video>
+                <video src="tfg/animacion-explicacion-e2.mp4" controls loop muted></video>
               </div>
             </div>
           </div>
@@ -672,20 +672,20 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="tfg-brands-layout">
               <div class="tfg-brand-col stacked-col">
                 <div class="tfg-image-card">
-                  <img src="TFG/kikoe1.jpg" alt="Render Envase 1 - Kiko Milano">
+                  <img src="tfg/kikoe1.jpg" alt="Render Envase 1 - Kiko Milano">
                 </div>
                 <div class="tfg-image-card">
-                  <img src="TFG/kikoe1caja.jpg" alt="Render Envase 1 con Caja - Kiko Milano">
-                </div>
-              </div>
-              <div class="tfg-brand-col">
-                <div class="tfg-image-card">
-                  <img src="TFG/kikoe2.jpg" alt="Render Envase 2 - Kiko Milano">
+                  <img src="tfg/kikoe1caja.jpg" alt="Render Envase 1 con Caja - Kiko Milano">
                 </div>
               </div>
               <div class="tfg-brand-col">
                 <div class="tfg-image-card">
-                  <img src="TFG/kikoe2caja.jpg" alt="Render Envase 2 con Caja - Kiko Milano">
+                  <img src="tfg/kikoe2.jpg" alt="Render Envase 2 - Kiko Milano">
+                </div>
+              </div>
+              <div class="tfg-brand-col">
+                <div class="tfg-image-card">
+                  <img src="tfg/kikoe2caja.jpg" alt="Render Envase 2 con Caja - Kiko Milano">
                 </div>
               </div>
             </div>
@@ -697,10 +697,10 @@ document.addEventListener('DOMContentLoaded', () => {
             
             <div class="tfg-parts-grid">
               <div class="tfg-parts-card">
-                <img src="TFG/partese1.png" alt="Partes del envase 1">
+                <img src="tfg/partese1.png" alt="Partes del envase 1">
               </div>
               <div class="tfg-parts-card">
-                <img src="TFG/partese2.png" alt="Partes del envase 2">
+                <img src="tfg/partese2.png" alt="Partes del envase 2">
               </div>
             </div>
           </div>
@@ -711,13 +711,13 @@ document.addEventListener('DOMContentLoaded', () => {
             
             <div class="tfg-image-grid">
               <div class="tfg-image-card">
-                <img src="TFG/protopro1.jpg" alt="Prototipo final detalle de cierre">
+                <img src="tfg/protopro1.jpg" alt="Prototipo final detalle de cierre">
               </div>
               <div class="tfg-image-card">
-                <img src="TFG/protopro2.jpg" alt="Prototipo final piezas de corte láser">
+                <img src="tfg/protopro2.jpg" alt="Prototipo final piezas de corte láser">
               </div>
               <div class="tfg-image-card">
-                <img src="TFG/protopro3.jpg" alt="Prototipo final envases de resina">
+                <img src="tfg/protopro3.jpg" alt="Prototipo final envases de resina">
               </div>
             </div>
 
@@ -725,10 +725,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
             <div class="tfg-image-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
               <div class="tfg-image-card">
-                <img src="TFG/todoslosproto.jpg" alt="Proceso de pruebas y evolución de prototipos">
+                <img src="tfg/todoslosproto.jpg" alt="Proceso de pruebas y evolución de prototipos">
               </div>
               <div class="tfg-image-card">
-                <img src="TFG/protocutre.jpg" alt="Maqueta de volumen inicial de cartón">
+                <img src="tfg/protocutre.jpg" alt="Maqueta de volumen inicial de cartón">
               </div>
             </div>
           </div>
@@ -768,31 +768,31 @@ document.addEventListener('DOMContentLoaded', () => {
               <p>Fui seleccionada de entre los cinco integrantes del grupo para recoger nuestro <strong>2.º premio a nivel nacional en Madrid y hacer una pequeña presentación sobre nuestro proyecto</strong>. En <a href="https://www.aspack.es/news/talento-joven-entrevista/" target="_blank" style="color: var(--accent-lila); text-decoration: underline; font-weight: 600;">este artículo de Aspack</a> hay más información sobre el evento.</p>
             </div>
             <div class="procarton-intro-images">
-              <img src="ProCarton/charla.jpg" alt="Charla técnica ProCarton" class="procarton-intro-img">
-              <img src="ProCarton/premio.jpg" alt="Premio ProCarton" class="procarton-intro-img">
+              <img src="procarton/charla.jpg" alt="Charla técnica ProCarton" class="procarton-intro-img">
+              <img src="procarton/premio.jpg" alt="Premio ProCarton" class="procarton-intro-img">
             </div>
           </div>
           
           <div class="tfg-section" style="margin-top: 1rem;">
             <div class="tfg-image-grid" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));">
               <div class="tfg-image-card">
-                <img src="ProCarton/pal1.png" alt="Diseño de Palet de Cartón - Isometría">
+                <img src="procarton/pal1.png" alt="Diseño de Palet de Cartón - Isometría">
               </div>
               <div class="tfg-image-card">
-                <img src="ProCarton/pal2.png" alt="Detalle de Columnas de Soporte">
+                <img src="procarton/pal2.png" alt="Detalle de Columnas de Soporte">
               </div>
               <div class="tfg-image-card">
-                <img src="ProCarton/pal3.png" alt="Diseño Desplegado de Plancha">
+                <img src="procarton/pal3.png" alt="Diseño Desplegado de Plancha">
               </div>
               <div class="tfg-image-card">
-                <img src="ProCarton/pal4.png" alt="Distribución de Cargas Estáticas">
+                <img src="procarton/pal4.png" alt="Distribución de Cargas Estáticas">
               </div>
             </div>
           </div>
 
           <div style="margin-top: 3rem; margin-bottom: 2rem; text-align: center; border-top: 1px solid var(--border-color); padding-top: 2rem;">
             <div class="tfg-image-card" style="max-width: 700px; margin: 0 auto;">
-              <img src="ProCarton/cartel procarton.png" alt="Cartel ProCarton" style="width: 100%; height: auto;">
+              <img src="procarton/cartel-procarton.png" alt="Cartel ProCarton" style="width: 100%; height: auto;">
             </div>
           </div>
         </div>
@@ -820,22 +820,22 @@ document.addEventListener('DOMContentLoaded', () => {
             
             <div class="tfg-image-grid" style="grid-template-columns: repeat(3, 1fr); gap: 1.5rem;">
               <div class="tfg-image-card">
-                <img src="Carrera/proyectos diseño/hab1.jpg" alt="EcoRack - Habitación 1">
+                <img src="carrera/proyectos-diseno/hab1.jpg" alt="EcoRack - Habitación 1">
               </div>
               <div class="tfg-image-card">
-                <img src="Carrera/proyectos diseño/hab2.jpg" alt="EcoRack - Habitación 2">
+                <img src="carrera/proyectos-diseno/hab2.jpg" alt="EcoRack - Habitación 2">
               </div>
               <div class="tfg-image-card">
-                <img src="Carrera/proyectos diseño/hab3.jpg" alt="EcoRack - Habitación 3">
+                <img src="carrera/proyectos-diseno/hab3.jpg" alt="EcoRack - Habitación 3">
               </div>
               <div class="tfg-image-card">
-                <img src="Carrera/proyectos diseño/zapatero.jpg" alt="EcoRack - Zapatero">
+                <img src="carrera/proyectos-diseno/zapatero.jpg" alt="EcoRack - Zapatero">
               </div>
               <div class="tfg-image-card">
-                <img src="Carrera/proyectos diseño/est1.jpg" alt="EcoRack - Estantería 1">
+                <img src="carrera/proyectos-diseno/est1.jpg" alt="EcoRack - Estantería 1">
               </div>
               <div class="tfg-image-card">
-                <img src="Carrera/proyectos diseño/est2.jpg" alt="EcoRack - Estantería 2">
+                <img src="carrera/proyectos-diseno/est2.jpg" alt="EcoRack - Estantería 2">
               </div>
             </div>
           </div>
@@ -845,7 +845,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             <div class="tfg-video-grid" style="grid-template-columns: 1fr; max-width: 700px; margin: 0 auto;">
               <div class="tfg-video-card">
-                <video src="Carrera/proyectos diseño/ecorack.mp4" controls loop muted></video>
+                <video src="carrera/proyectos-diseno/ecorack.mp4" controls loop muted></video>
               </div>
             </div>
           </div>
@@ -857,15 +857,15 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="tfg-echo-layout">
               <div class="tfg-brand-col stacked-col">
                 <div class="tfg-image-card">
-                  <img src="Carrera/proyectos diseño/echo1.png" alt="EchoStation - Render 1">
+                  <img src="carrera/proyectos-diseno/echo1.png" alt="EchoStation - Render 1">
                 </div>
                 <div class="tfg-video-card">
-                  <video src="Carrera/proyectos diseño/videoecho.mp4" controls loop muted></video>
+                  <video src="carrera/proyectos-diseno/videoecho.mp4" controls loop muted></video>
                 </div>
               </div>
               <div class="tfg-brand-col">
                 <div class="tfg-image-card">
-                  <img src="Carrera/proyectos diseño/echo2.png" alt="EchoStation - Render 2">
+                  <img src="carrera/proyectos-diseno/echo2.png" alt="EchoStation - Render 2">
                 </div>
               </div>
             </div>
@@ -879,16 +879,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>Para la asignatura de Ergonomía, realizamos un <strong>rediseño de las paradas de bus de Málaga</strong>. Los aspectos a destacar de este diseño son la adición de un <strong>aparcamiento para bicicletas o patinetes</strong>, un <strong>asiento corrido</strong> para aumentar el número de personas que pueden sentarse, además de una <strong>estética moderna y atractiva</strong>.</p>
               </div>
               <div class="tfg-intro-img-box">
-                <img src="Carrera/proyectos diseño/mar1.jpg" alt="Marquesina Bus Málaga - Render General" class="tfg-intro-img">
+                <img src="carrera/proyectos-diseno/mar1.jpg" alt="Marquesina Bus Málaga - Render General" class="tfg-intro-img">
               </div>
             </div>
             
             <div class="tfg-image-grid" style="grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1.5rem;">
               <div class="tfg-image-card">
-                <img src="Carrera/proyectos diseño/mar2.jpg" alt="Marquesina Bus Málaga - Detalle Aparcamiento">
+                <img src="carrera/proyectos-diseno/mar2.jpg" alt="Marquesina Bus Málaga - Detalle Aparcamiento">
               </div>
               <div class="tfg-image-card">
-                <img src="Carrera/proyectos diseño/mar3.jpg" alt="Marquesina Bus Málaga - Detalle Asiento">
+                <img src="carrera/proyectos-diseno/mar3.jpg" alt="Marquesina Bus Málaga - Detalle Asiento">
               </div>
             </div>
           </div>
@@ -906,7 +906,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>Para este proyecto debíamos crear un objeto que usara luces. Decidimos crear un <strong>juguete con sensor de voz</strong>, que reconociera cuándo un bebé llorara por la noche y para intentar calmarlo proyectara <strong>imágenes relajantes con su trompa en el techo</strong> a la vez que reprodujera música. Creamos a partir de <strong>impresión 3D de filamento</strong> un prototipo básico funcional (imagen derecha).</p>
               </div>
               <div class="tfg-intro-img-box" style="max-width: 260px; margin-left: auto; margin-right: 0;">
-                <img src="Carrera/proyectos diseño/IMAGEN PROTOTIPO.png" alt="Dreamy - Prototipo Físico" class="tfg-intro-img">
+                <img src="carrera/proyectos-diseno/IMAGEN PROTOTIPO.png" alt="Dreamy - Prototipo Físico" class="tfg-intro-img">
               </div>
             </div>
           </div>
@@ -948,8 +948,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>Durante el grado tuve que realizar diferentes trabajos artísticos. El más destacable a mi parecer se trata del <strong>proyecto Re-Earth</strong> que realicé junto con cuatro compañeros de mi clase para el <strong>Erasmus+ Personal Green Skills</strong>. Haciendo clic <a href="https://fokusorange.thws.de/en/research-understanding/ausgabe-9/discovering-and-shaping-europe-with-personal-green-skills/" target="_blank" style="color: var(--accent-lila); text-decoration: underline; font-weight: 600;">aquí</a> puedes encontrar un resumen del evento y <a href="https://fokusorange.thws.de/en/thwspodcast/ausgabe-9/bip-discovering-and-shaping-europe-with-personal-green-skills/" target="_blank" style="color: var(--accent-lila); text-decoration: underline; font-weight: 600;">aquí</a> encontrarás un pequeño podcast con una entrevista sobre nuestro proyecto. Realizamos un <strong>juego de mesa para concienciar sobre sostenibilidad</strong> a jóvenes y adultos de manera divertida. Creamos un <strong>prototipo completamente funcional</strong>, como se puede ver en las imágenes.</p>
               </div>
               <div class="procarton-intro-images">
-                <img src="Carrera/logos, carteles/juegoreal.jpg" alt="Prototipo de Juego Re-Earth" class="procarton-intro-img">
-                <img src="Carrera/logos, carteles/logo.png" alt="Logo de Re-Earth" class="procarton-intro-img">
+                <img src="carrera/logos-carteles/juegoreal.jpg" alt="Prototipo de Juego Re-Earth" class="procarton-intro-img">
+                <img src="carrera/logos-carteles/logo.png" alt="Logo de Re-Earth" class="procarton-intro-img">
               </div>
             </div>
           </div>
@@ -960,19 +960,19 @@ document.addEventListener('DOMContentLoaded', () => {
             
             <div class="creative-collage">
               <div class="collage-item">
-                <img src="Carrera/logos, carteles/ae1.png" alt="Producción Creativa 1">
+                <img src="carrera/logos-carteles/ae1.png" alt="Producción Creativa 1">
               </div>
               <div class="collage-item">
-                <img src="Carrera/logos, carteles/ae2.png" alt="Producción Creativa 2">
+                <img src="carrera/logos-carteles/ae2.png" alt="Producción Creativa 2">
               </div>
               <div class="collage-item">
-                <img src="Carrera/logos, carteles/ae3.png" alt="Producción Creativa 3">
+                <img src="carrera/logos-carteles/ae3.png" alt="Producción Creativa 3">
               </div>
               <div class="collage-item">
-                <img src="Carrera/logos, carteles/cartel1.jpg" alt="Cartel de Diseño Industrial">
+                <img src="carrera/logos-carteles/cartel1.jpg" alt="Cartel de Diseño Industrial">
               </div>
               <div class="collage-item">
-                <img src="Carrera/logos, carteles/planta.png" alt="Estudio Botánico - Planta">
+                <img src="carrera/logos-carteles/planta.png" alt="Estudio Botánico - Planta">
               </div>
             </div>
           </div>
@@ -1043,7 +1043,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         <div class="modal-details">
           <button class="btn btn-secondary" id="btn-back-to-album" style="margin-bottom: 1.5rem; align-self: flex-start; padding: 0.5rem 1rem; font-size: 0.8rem; border-radius: 4px;">
-            ← Volver a Carpeta
+            �?� Volver a Carpeta
           </button>
           
           <span class="modal-category">${folder.category}</span>
@@ -1109,7 +1109,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // --- DETECTAR SECCIÓN ACTIVA EN EL MENU DURANTE SCROLL ---
+  // --- DETECTAR SECCI�"N ACTIVA EN EL MENU DURANTE SCROLL ---
   const sections = document.querySelectorAll('section');
   
   window.addEventListener('scroll', () => {
@@ -1191,3 +1191,4 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
 });
+
