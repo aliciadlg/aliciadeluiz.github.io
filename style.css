@@ -1452,17 +1452,17 @@ button {
   padding-top: 1rem !important;
 }
 
-/* --- CREATIVE COLLAGE STYLE (PRESERVING ORDER) --- */
+/* --- CREATIVE COLLAGE MASONRY STYLE --- */
 .creative-collage {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-  align-items: start;
+  column-count: 3;
+  column-gap: 1.5rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
 
 .collage-item {
+  break-inside: avoid;
+  margin-bottom: 1.5rem;
   border-radius: 12px;
   overflow: hidden;
   border: 1px solid var(--border-color);
@@ -1485,13 +1485,13 @@ button {
 
 @media (max-width: 900px) {
   .creative-collage {
-    grid-template-columns: repeat(2, 1fr);
+    column-count: 2;
   }
 }
 
 @media (max-width: 600px) {
   .creative-collage {
-    grid-template-columns: 1fr;
-    gap: 1.25rem;
+    column-count: 1;
+    column-gap: 0;
   }
 }

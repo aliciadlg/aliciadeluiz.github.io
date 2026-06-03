@@ -248,7 +248,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Estudio ergonómico del asiento corrido de madera para la espera de pasajeros.'
         },
         {
-          src: 'carrera/proyectos-diseno/IMAGEN PROTOTIPO.png',
+          src: 'carrera/proyectos-diseno/imagen-prototipo.png',
           title: 'Dreamy - Prototipo Funcional Real',
           materials: 'Filamento PLA, electrónica básica, sensor de sonido',
           software: 'Impresión 3D FDM',
@@ -906,7 +906,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>Para este proyecto debíamos crear un objeto que usara luces. Decidimos crear un <strong>juguete con sensor de voz</strong>, que reconociera cuándo un bebé llorara por la noche y para intentar calmarlo proyectara <strong>imágenes relajantes con su trompa en el techo</strong> a la vez que reprodujera música. Creamos a partir de <strong>impresión 3D de filamento</strong> un prototipo básico funcional (imagen derecha).</p>
               </div>
               <div class="tfg-intro-img-box" style="max-width: 260px; margin-left: auto; margin-right: 0;">
-                <img src="carrera/proyectos-diseno/IMAGEN PROTOTIPO.png" alt="Dreamy - Prototipo Físico" class="tfg-intro-img">
+                <img src="carrera/proyectos-diseno/imagen-prototipo.png" alt="Dreamy - Prototipo Físico" class="tfg-intro-img">
               </div>
             </div>
           </div>
