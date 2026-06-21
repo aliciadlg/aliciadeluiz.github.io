@@ -38,7 +38,7 @@
   --spacing-sm: 1rem;
   --spacing-md: 2rem;
   --spacing-lg: 4rem;
-  --spacing-xl: 8rem;
+  --spacing-xl: 4rem;
   
   --max-width: 1200px;
   --header-height: 80px;
@@ -112,6 +112,12 @@ button {
 .text-accent {
   color: var(--accent-lila);
   font-weight: 500;
+}
+
+.section-header {
+  text-align: left;
+  margin-bottom: var(--spacing-md);
+  width: 100%;
 }
 
 .section-title {
@@ -431,6 +437,75 @@ button {
   gap: var(--spacing-md);
 }
 
+.about-layout {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.about-right-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-md);
+  width: 100%;
+}
+
+.about-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.about-image-box {
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.04);
+  border: 4px solid #ffffff;
+  outline: 1px solid var(--border-color);
+  background-color: #ffffff;
+  max-width: 320px;
+  width: 100%;
+}
+
+.about-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: var(--transition-smooth);
+}
+
+.about-image:hover {
+  transform: scale(1.03);
+}
+
+@media (max-width: 900px) {
+  .about-layout {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .about-image-box {
+    max-width: 280px;
+  }
+  .about-right-col {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 2.5rem;
+    align-items: start;
+    width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  .about-right-col {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
 .about-text {
   font-size: 1.05rem;
   color: var(--text-secondary);
@@ -452,6 +527,164 @@ button {
   grid-template-columns: 1fr 1fr;
   gap: var(--spacing-md);
   margin-top: var(--spacing-sm);
+}
+
+.about-right-col .skills-container {
+  grid-template-columns: 1fr;
+  width: 100%;
+  max-width: 320px;
+  margin-top: 0;
+}
+
+@media (max-width: 900px) {
+  .about-right-col .skills-container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  .about-right-col .skills-container {
+    max-width: 280px;
+  }
+}
+
+/* Contact info inside About */
+.about-contact {
+  margin-top: 2.5rem;
+  border-top: 1px solid var(--border-color);
+  padding-top: 1.5rem;
+}
+
+.about-contact h3 {
+  font-family: var(--font-title);
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+  color: var(--text-primary);
+}
+
+.about-contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.about-contact-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.contact-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.contact-value {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a.contact-value {
+  color: var(--accent-lila);
+  transition: var(--transition-quick);
+  width: fit-content;
+}
+
+a.contact-value:hover {
+  color: var(--text-primary);
+  text-decoration: underline;
+}
+
+/* Practicas Section */
+.practicas-grid {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 3rem;
+  align-items: stretch;
+}
+
+.practicas-image-wrapper {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.practicas-image-box {
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.04);
+  border: 4px solid #ffffff;
+  outline: 1px solid var(--border-color);
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+}
+
+.practicas-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: var(--transition-smooth);
+}
+
+.practicas-image:hover {
+  transform: scale(1.03);
+}
+
+.practicas-content {
+  max-width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.practicas-content p {
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+}
+
+.practicas-content p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 900px) {
+  .practicas-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .practicas-image-box {
+    max-width: 280px;
+    height: auto;
+    aspect-ratio: 4/3;
+  }
+  .practicas-image {
+    height: auto;
+  }
+}
+
+/* Contact Section */
+.contact-details-box {
+  max-width: 100%;
+  margin: 0;
+}
+
+.contact-subtitle {
+  font-family: var(--font-title);
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+  color: var(--text-primary);
 }
 
 .skills-category h3 {
@@ -487,9 +720,9 @@ button {
 
 /* --- PORTFOLIO SYSTEM (SIDEBAR + FOLDERS) --- */
 .portfolio-intro {
-  text-align: center;
-  max-width: 600px;
-  margin: 0 auto var(--spacing-md) auto;
+  text-align: left;
+  max-width: 800px;
+  margin: 0 0 var(--spacing-md) 0;
 }
 
 /* Layout de dos columnas paralelas (Diseño Industrial izq / Otras creaciones der) */
@@ -1131,7 +1364,7 @@ button {
 
 @media (max-width: 768px) {
   :root {
-    --spacing-xl: 4.5rem;
+    --spacing-xl: 2.25rem;
   }
   
   .menu-toggle {

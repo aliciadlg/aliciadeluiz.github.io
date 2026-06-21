@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ==========================================================================
  * PORTFOLIO JAVASCRIPT - FOLDER SYSTEM & HOVER SLIDESHOW (LIGHT PASTEL)
  * ==========================================================================
@@ -330,22 +330,13 @@ document.addEventListener('DOMContentLoaded', () => {
       ]
     },
     'personajes': {
-      title: 'Diseño de Personajes & Dear Cucú',
-      category: 'Producción Artística',
+      title: 'Diseño de Personajes y Más',
+      category: 'Diseño Digital y Tradicional',
       desc: 'Colección de ilustraciones y bocetos para la creación de personajes digitales, editoriales y el diseño del autómata de madera Dear Cucú.',
-      cover: 'dibujos/diseno-personajes/personaje-cucu.png',
+      cover: 'dibujos/dear-cucu.png',
       images: [
         {
-          src: 'dibujos/diseno-personajes/personaje-cucu.png',
-          title: 'Robot Dear Cucú - Ficha de Personaje',
-          materials: 'Ilustración digital',
-          software: 'Procreate, Photoshop',
-          role: 'Concept Art e Ilustración',
-          year: '2026',
-          desc: 'Diseño de proporciones y paleta cromática para el personaje de juguete autómata.'
-        },
-        {
-          src: 'dibujos/diseno-personajes/dear-cucu.png',
+          src: 'dibujos/dear-cucu.png',
           title: 'Exploración de Color - Robot Cucú',
           materials: 'Pintura digital texturizada',
           software: 'Procreate',
@@ -354,7 +345,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Estudio de acabados sobre madera veteada en tonos pastel.'
         },
         {
-          src: 'dibujos/diseno-personajes/casa-cucu.png',
+          src: 'dibujos/casa-cucu.png',
           title: 'Entorno Conceptual - Casa de Cucú',
           materials: 'Línea de tinta digital',
           software: 'Adobe Illustrator',
@@ -363,7 +354,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Boceto de la caseta de cuco estilizada para alojar al autómata interactivo.'
         },
         {
-          src: 'dibujos/diseno-personajes/casa-cucu-mejorada.jpg',
+          src: 'dibujos/casa-cucu-mejorada.jpg',
           title: 'Render Refinado - Casita de Madera',
           materials: 'Gouache digital',
           software: 'Procreate',
@@ -372,7 +363,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Estudio de luces y sombras pintado digitalmente sobre la estructura de la caseta.'
         },
         {
-          src: 'dibujos/diseno-personajes/Lemonyolk_Dtiys.jpg',
+          src: 'dibujos/lemonyolk-dtiys.jpg',
           title: 'Ilustración Lemonyolk Dtiys',
           materials: 'Tinta y color digital texturizado',
           software: 'Procreate',
@@ -381,7 +372,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Trabajo artístico centrado en el estudio cromático del color amarillo pastel.'
         },
         {
-          src: 'dibujos/diseno-personajes/Mis_Hijos_2.0.jpg',
+          src: 'dibujos/mis-hijos-2.0.jpg',
           title: 'Ilustración Mis Hijos 2.0',
           materials: 'Pintura digital texturizada',
           software: 'Procreate',
@@ -390,7 +381,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Ilustración estilizada y cómica que explora la personalidad de personajes a través del vestuario.'
         },
         {
-          src: 'dibujos/diseno-personajes/ID_triple_A (1).jpg',
+          src: 'dibujos/id-triple-a.jpg',
           title: 'Personajes ID Triple A',
           materials: 'Dibujo digital en acuarela',
           software: 'Adobe Photoshop',
@@ -399,7 +390,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Diseño de una terna de personajes para aplicaciones interactivas de aprendizaje.'
         },
         {
-          src: 'dibujos/diseno-personajes/Primer_Intento_Rendering.jpg',
+          src: 'dibujos/primer-intento-rendering.jpg',
           title: 'Estudio de Volumen Digital',
           materials: 'Modelado de luces digital',
           software: 'Procreate',
@@ -408,7 +399,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Práctica de volumen pintando caras con luz dirigida.'
         },
         {
-          src: 'dibujos/diseno-personajes/boda tito dani.jpg',
+          src: 'dibujos/boda-tito-dani.jpg',
           title: 'Ilustración Conmemorativa Boda',
           materials: 'Ilustración digital flat design',
           software: 'Adobe Illustrator',
@@ -417,7 +408,7 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Retrato vectorial minimalista diseñado para invitaciones de boda.'
         },
         {
-          src: 'dibujos/diseno-personajes/las aventuras de claudia.jpeg',
+          src: 'dibujos/las-aventuras-de-claudia.jpeg',
           title: 'Portada - Las Aventuras de Claudia',
           materials: 'Diseño editorial',
           software: 'Procreate, InDesign',
@@ -426,30 +417,72 @@ document.addEventListener('DOMContentLoaded', () => {
           desc: 'Diseño de portada para cuento infantil utilizando una paleta pastel suave.'
         },
         {
-          src: 'dibujos/diseno-personajes/unnamed.jpg',
+          src: 'dibujos/unnamed.jpg',
           title: 'Bocetos Rápidos de Caras',
           materials: 'Tinta analógica sobre papel kraft',
           software: 'Técnica Tradicional',
           role: 'Estudios de Expresión',
           year: '2026',
           desc: 'Dibujo a mano alzada enfocado en capturar expresiones y proporciones faciales rápidas.'
+        },
+        {
+          src: 'dibujos/acrilico.jpg',
+          title: 'Estudio de Paisaje - Acrílico',
+          materials: 'Acrílico sobre lienzo',
+          software: 'Técnica Tradicional',
+          role: 'Pintura de Paisaje',
+          year: '2026',
+          desc: 'Estudio de color y texturas representando un paisaje natural con acrílicos.'
+        },
+        {
+          src: 'dibujos/ghibli.jpg',
+          title: 'Estudio de Edificio - Estilo Ghibli',
+          materials: 'Acuarela digital',
+          software: 'Procreate',
+          role: 'Ilustración de Entornos',
+          year: '2026',
+          desc: 'Pintura digital de un edificio campestre inspirada en la estética del Studio Ghibli.'
+        },
+        {
+          src: 'dibujos/wini.jpg',
+          title: 'Ilustración Digital - Wini',
+          materials: 'Ilustración digital',
+          software: 'Clip Studio Paint',
+          role: 'Ilustradora',
+          year: '2026',
+          desc: 'Dibujo detallado de personaje digital utilizando técnicas de sombreado suave.'
         }
       ]
     },
     'ceramica': {
-      title: 'Cerámica Artesanal',
-      category: 'Producción Artística',
-      desc: 'Exploración del volumen manual, el torno alfarero tradicional y la química de esmaltes mate formulados en el taller.',
-      cover: 'ceramica/ceramica_piezas.png',
+      title: 'Cerámica',
+      category: 'Modelado a Mano',
+      desc: 'Desde octubre de 2025 he estado asistiendo a un taller de cerámica para crear mis propias piezas sin torno. Me he centrado en crear platos, tazas, boles y otras piezas útiles para el día a día. Aquí se encuentra una pequeña muestra de mi trabajo.',
+      cover: 'ceramica/IMG-20260527-WA0009.jpeg',
       images: [
         {
-          src: 'ceramica/ceramica_piezas.png',
-          title: 'Colección de Jarrones Orgánicos',
-          materials: 'Arcilla de gres con chamota, esmaltes mate formulados a mano',
-          software: 'Torno de alfarero y quema a 1250°C',
-          role: 'Alfarera y Creadora de Esmaltes',
-          year: '2026',
-          desc: 'Jarrones minimalistas que contrastan el acabado de los esmaltes pasteles mate con la aspereza rústica de la arcilla expuesta.'
+          src: 'ceramica/IMG-20260527-WA0009.jpeg',
+          title: 'Pieza de Cerámica 1'
+        },
+        {
+          src: 'ceramica/IMG-20251028-WA0083.jpeg',
+          title: 'Pieza de Cerámica 2'
+        },
+        {
+          src: 'ceramica/IMG-20260216-WA0036.jpeg',
+          title: 'Pieza de Cerámica 3'
+        },
+        {
+          src: 'ceramica/IMG-20260320-WA0003.jpeg',
+          title: 'Pieza de Cerámica 4'
+        },
+        {
+          src: 'ceramica/IMG_20260427_193929029.jpg',
+          title: 'Pieza de Cerámica 5'
+        },
+        {
+          src: 'ceramica/IMG_20260427_193939793.jpg',
+          title: 'Pieza de Cerámica 6'
         }
       ]
     },
@@ -840,16 +873,6 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
           </div>
 
-          <div class="tfg-section" style="margin-top: 2rem; margin-bottom: 1.5rem;">
-            <p style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1.5rem;">Aquí aparece una animación que hice por mi cuenta sobre cómo se ensambla el mueble y cómo se vería separando un salón-cocina.</p>
-            
-            <div class="tfg-video-grid" style="grid-template-columns: 1fr; max-width: 700px; margin: 0 auto;">
-              <div class="tfg-video-card">
-                <video src="carrera/proyectos-diseno/ecorack.mp4" controls loop muted></video>
-              </div>
-            </div>
-          </div>
-
           <div class="tfg-section" style="margin-top: 2.5rem; margin-bottom: 1.5rem;">
             <h4 class="modal-section-title">EchoStation</h4>
             <p style="color: var(--text-secondary); font-size: 1.05rem; line-height: 1.7; margin-bottom: 1.5rem;">Para este proyecto en grupo de tres integrantes decidimos realizar un <strong>altavoz y unos auriculares <em>headphones</em> plegables</strong>. El altavoz sirve como <strong>estación de carga</strong> de los auriculares, con la particularidad de que si estos están reproduciendo música al momento de colocarse en la estación de carga, se <strong>conecta automáticamente</strong> a esta y el sonido se pasaría a reproducir en los altavoces.</p>
@@ -895,7 +918,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
           <div class="tfg-section" style="margin-top: 2.5rem; margin-bottom: 1.5rem;">
             <h4 class="modal-section-title">Tostadora familia numerosa</h4>
-            <p style="color: var(--text-secondary); font-size: 1.05rem; line-height: 1.7;">Junto a Dreamy (explicado en el siguiente apartado), este fue el primer proyecto de diseño industrial que realicé en la carrera. Fue un trabajo grupal de cuatro miembros, donde debíamos hacer un <strong>rediseño de una tostadora tradicional</strong>. Nos centramos en el nicho de las familias numerosas, creando una <strong>tostadora vertical que pudiera almacenar una bolsa entera de pan de molde</strong> y que pudiera tostar rebanadas de dos en dos de manera automática. La tapa transparente tenía doble función: proteger al pan y hacer de bandeja cuando estuviera en uso la tostadora, manteniendo mejor el calor de las tostadas y evitando ensuciar con migas la superficie donde se encuentre.<br><br>Debido a la baja calidad de las primeras imágenes realizadas en su momento, he decidido volver a crearlas.</p>
+            <p style="color: var(--text-secondary); font-size: 1.05rem; line-height: 1.7; margin-bottom: 1.5rem;">Junto a Dreamy (explicado en el siguiente apartado), este fue el primer proyecto de diseño industrial que realicé en la carrera. Fue un trabajo grupal de cuatro miembros, donde debíamos hacer un <strong>rediseño de una tostadora tradicional</strong>. Nos centramos en el nicho de las familias numerosas, creando una <strong>tostadora vertical que pudiera almacenar una bolsa entera de pan de molde</strong> y que pudiera tostar rebanadas de dos en dos de manera automática. La tapa transparente tenía doble función: proteger al pan y hacer de bandeja cuando estuviera en uso la tostadora, manteniendo mejor el calor de las tostadas y evitando ensuciar con migas la superficie donde se encuentre.<br><br>Debido a la baja calidad de las primeras imágenes realizadas en su momento, he decidido volver a crearlas.</p>
+            
+            <div class="tfg-image-grid" style="grid-template-columns: repeat(2, minmax(120px, 280px)); justify-content: center; gap: 1.5rem; margin-top: 1.5rem;">
+              <div class="tfg-image-card" style="aspect-ratio: 3/4;">
+                <img src="carrera/proyectos-diseno/tostadorax.jpg" alt="Tostadora Familia Numerosa - Render 1" style="width: 100%; height: 100%; object-fit: cover;">
+              </div>
+              <div class="tfg-image-card" style="aspect-ratio: 3/4;">
+                <img src="carrera/proyectos-diseno/tostadas.jpg" alt="Tostadora Familia Numerosa - Render 2" style="width: 100%; height: 100%; object-fit: cover;">
+              </div>
+            </div>
           </div>
 
           <div class="tfg-section" style="margin-top: 2.5rem; margin-bottom: 1.5rem;">
@@ -975,6 +1007,72 @@ document.addEventListener('DOMContentLoaded', () => {
                 <img src="carrera/logos-carteles/planta.png" alt="Estudio Botánico - Planta">
               </div>
             </div>
+          </div>
+        </div>
+      `;
+
+      // Activar modal
+      modal.classList.add('active');
+      modal.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+      return;
+    }
+
+    // Caso especial para Diseño de personajes
+    if (folderId === 'personajes') {
+      let imagesHtml = '';
+      data.images.forEach((img, idx) => {
+        imagesHtml += `
+          <div class="collage-item" style="cursor: default;">
+            <img src="${img.src}" alt="${img.title}">
+          </div>
+        `;
+      });
+
+      modalContainer.innerHTML = `
+        <div class="album-modal-layout">
+          <div class="album-header">
+            <span class="modal-category">${data.category}</span>
+            <h2 class="modal-title" style="margin-bottom: 10px;">Diseño de Personajes y Más</h2>
+            <p style="color: var(--text-secondary); font-size: 1.05rem; line-height: 1.7; margin-bottom: 25px;">
+              Trabajo con acuarelas, acrílicos, témperas, lápices de colores, rotuladores... además de usar programas de diseño digital como Procreate o Clip Studio Paint. Siempre me he centrado en el diseño de personajes, pero últimamente trato de aprender a pintar paisajes y edificios.
+            </p>
+          </div>
+          <div class="creative-collage">
+            ${imagesHtml}
+          </div>
+        </div>
+      `;
+
+      // Activar modal
+      modal.classList.add('active');
+      modal.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+      return;
+    }
+
+    // Caso especial para Cerámica
+    if (folderId === 'ceramica') {
+      let imagesHtml = '';
+      data.images.forEach((img, idx) => {
+        imagesHtml += `
+          <div class="collage-item" style="cursor: default;">
+            <img src="${img.src}" alt="${img.title}">
+          </div>
+        `;
+      });
+
+      modalContainer.innerHTML = `
+        <div class="album-modal-layout">
+          <div class="album-header">
+            <span class="modal-category">${data.category}</span>
+            <h2 class="modal-title" style="margin-bottom: 10px;">Cerámica</h2>
+            <p style="color: var(--text-secondary); font-size: 1.05rem; line-height: 1.7; margin-bottom: 25px;">
+              Desde octubre de 2025 he estado asistiendo a un taller de cerámica para crear mis propias piezas sin torno. Me he centrado en crear platos, tazas, boles y otras piezas útiles para el día a día. Aquí se encuentra una pequeña muestra de mi trabajo.
+            </p>
+          </div>
+          <div class="creative-collage">
+            ${imagesHtml}
           </div>
         </div>
       `;
@@ -1156,39 +1254,54 @@ document.addEventListener('DOMContentLoaded', () => {
   const formStatusMessage = document.getElementById('form-status-message');
   const btnSubmitForm = document.getElementById('btn-submit-form');
 
-  contactForm.addEventListener('submit', (e) => {
-    e.preventDefault();
+  if (contactForm) {
+    contactForm.addEventListener('submit', (e) => {
+      e.preventDefault();
 
-    const name = document.getElementById('form-name').value.trim();
-    const email = document.getElementById('form-email').value.trim();
-    const subject = document.getElementById('form-subject').value.trim();
-    const message = document.getElementById('form-message').value.trim();
+      const name = document.getElementById('form-name').value.trim();
+      const email = document.getElementById('form-email').value.trim();
+      const subject = document.getElementById('form-subject').value.trim();
+      const message = document.getElementById('form-message').value.trim();
 
-    if (!name || !email || !subject || !message) {
-      showStatusMessage('Por favor, rellena todos los campos.', 'error');
-      return;
+      if (!name || !email || !subject || !message) {
+        showStatusMessage('Por favor, rellena todos los campos.', 'error');
+        return;
+      }
+
+      btnSubmitForm.disabled = true;
+      btnSubmitForm.textContent = 'Enviando...';
+
+      setTimeout(() => {
+        showStatusMessage('¡Mensaje enviado con éxito! Me pondré en contacto contigo pronto.', 'success');
+        contactForm.reset();
+        btnSubmitForm.disabled = false;
+        btnSubmitForm.textContent = 'Enviar Mensaje';
+      }, 1500);
+    });
+
+    const showStatusMessage = (text, type) => {
+      formStatusMessage.textContent = text;
+      formStatusMessage.className = `form-message ${type}`;
+      formStatusMessage.style.display = 'block';
+      
+      setTimeout(() => {
+        formStatusMessage.style.display = 'none';
+      }, 5000);
+    };
+  }
+
+  // --- PROTECCIÓN DE IMÁGENES (EVITAR CLIC DERECHO Y ARRASTRE) ---
+  document.addEventListener('contextmenu', (e) => {
+    if (e.target.tagName === 'IMG') {
+      e.preventDefault();
     }
-
-    btnSubmitForm.disabled = true;
-    btnSubmitForm.textContent = 'Enviando...';
-
-    setTimeout(() => {
-      showStatusMessage('¡Mensaje enviado con éxito! Me pondré en contacto contigo pronto.', 'success');
-      contactForm.reset();
-      btnSubmitForm.disabled = false;
-      btnSubmitForm.textContent = 'Enviar Mensaje';
-    }, 1500);
   });
 
-  const showStatusMessage = (text, type) => {
-    formStatusMessage.textContent = text;
-    formStatusMessage.className = `form-message ${type}`;
-    formStatusMessage.style.display = 'block';
-    
-    setTimeout(() => {
-      formStatusMessage.style.display = 'none';
-    }, 5000);
-  };
+  document.addEventListener('dragstart', (e) => {
+    if (e.target.tagName === 'IMG') {
+      e.preventDefault();
+    }
+  });
 
 });
 
